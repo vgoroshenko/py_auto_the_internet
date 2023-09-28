@@ -56,21 +56,13 @@ class BasePage():
             return False
         return True
 
-    # def is_disappeared(self, how, what, timeout=4):
-    #     try:
-    #         WebDriverWait(self.browser, timeout, 1, [TimeoutException]). \
-    #             until_not(EC.presence_of_element_located((how, what)))
-    #     except TimeoutException:
-    #         return False
-    #     return True
-
     def is_checked(self, how, what):
         return self.browser.find_element(how, what).is_selected()
 
     def is_element_present_timeout(self, how, what, timeout=4):
         try:
             WebDriverWait(self.browser, timeout, 1, [TimeoutException]). \
-                until(EC.presence_of_element_located((how, what)))
+                until(EC.presence_of_element_located((how, what)) and EC.visibility_of_element_located((how, what)))
         except TimeoutException:
             return False
         return True

@@ -82,6 +82,13 @@ class DynamicallyLoadedLocators():
     LOADING_BAR = (By.CSS_SELECTOR, '#loading')
     FINISH_TEXT = (By.CSS_SELECTOR, '#finish')
 
+class EntryAdLocators():
+    LOADED_PAGE = (By.XPATH, "//a[@href='/entry_ad']")
+    CLOSE_BUTTON = (By.CSS_SELECTOR, "div[class='modal-footer']")
+    RE_ENABLE_BUTTON = (By.CSS_SELECTOR, '#restart-ad')
+    POPUP = (By.CSS_SELECTOR, '.modal')
+
+
 class UrlLocators():
     MAIN_URL = "http://172.17.0.1:5000/"
     #MAIN_URL = "http://localhost:5000/"
