@@ -32,28 +32,34 @@ class ChallengingDomLocators():
     THIRD_BUTTON = (By.CSS_SELECTOR, ".button.success")
     ANSWER = (By.CSS_SELECTOR, '#canvas')
 
+
 class CheckboxesLocators():
     PAGE_NAME = (By.CSS_SELECTOR, 'h3')
     CHECKBOXES_PAGE = (By.XPATH, "//a[@href='/checkboxes']")
     FIRST_CHECKBOX = (By.CSS_SELECTOR, 'input:nth-of-type(1)')
     SECOND_CHECKBOX = (By.CSS_SELECTOR, 'input:nth-of-type(2)')
 
+
 class ContextMenuLocators():
     PAGE_NAME = (By.CSS_SELECTOR, 'h3')
     CONTEXT_PAGE = (By.XPATH, "//a[@href='/context_menu']")
     BOX_BUTTON = (By.CSS_SELECTOR, '#hot-spot')
 
+
 class BasePageLocators():
     PAGE_NAME = (By.CSS_SELECTOR, 'h3')
+
 
 class DisappearingElementsLocators():
     DISAPPERATING_PAGE = (By.XPATH, "//a[@href='/disappearing_elements']")
     BUTTON_LIST = (By.XPATH, '//li//a')
 
+
 class DragAndDropLocators():
     DRAG_AND_DROP_PAGE = (By.XPATH, "//a[@href='/drag_and_drop']")
     BOX_A = (By.CSS_SELECTOR, '#column-a')
     BOX_B = (By.CSS_SELECTOR, '#column-b')
+
 
 class DropdownLocators():
     DROPDOWN_PAGE = (By.XPATH, "//a[@href='/dropdown']")
@@ -61,12 +67,20 @@ class DropdownLocators():
     DROPDOWN_FIRST_ELEMENT = (By.CSS_SELECTOR, "option[value='1']")
     DROPDOWN_SECOND_ELEMENT = (By.CSS_SELECTOR, "option[value='2']")
 
+
 class DynamicContentLocators():
-    DYNAMIC_CONTENT_page = (By.XPATH, "//a[@href='/dynamic_content']")
+    DYNAMIC_CONTENT_PAGE = (By.XPATH, "//a[@href='/dynamic_content']")
     CHANGE_CONTENT_BUTTON = (By.XPATH, "//a[contains(@href, 'with')]")
+    ALL_TEXT_CONTENT_ELEMENTS = (By.CSS_SELECTOR, '#content:nth-child(1) .row .large-10')
 
 
-
+class DynamicallyLoadedLocators():
+    DYNAMICALLY_LOADED_PAGE = (By.XPATH, "//a[@href='/dynamic_loading']")
+    EXAMPLE_ONE_BUTTON = (By.XPATH, "//a[@href='/dynamic_loading/1']")
+    EXAMPLE_TWO_BUTTON = (By.XPATH, "//a[@href='/dynamic_loading/2']")
+    START_BUTTON = (By.CSS_SELECTOR, "button")
+    LOADING_BAR = (By.CSS_SELECTOR, '#loading')
+    FINISH_TEXT = (By.CSS_SELECTOR, '#finish')
 
 class UrlLocators():
     MAIN_URL = "http://172.17.0.1:5000/"
