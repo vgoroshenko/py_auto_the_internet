@@ -6,12 +6,14 @@ pull:
 	docker pull selenoid/firefox:latest
 	docker pull browsers/edge
 	docker pull browsers/safari:15.0
+	docker pull vgoroshenko/the-internet-demo
 
 clean:
 	docker rmi -f selenoid/chrome:latest
 	docker rmi -f selenoid/firefox:latest
 	docker rmi -f browsers/edge
 	docker rmi -f browsers/safari:15.0
+	docker rmi -f vgoroshenko/the-internet-demo
 
 # Borrowed from
 #   https://github.com/jfrazelle/dockerfiles/blob/master/kiwi-builder/Makefile

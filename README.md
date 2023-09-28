@@ -2,12 +2,14 @@
 
 Install your dependencies:
 
-    docker-compose up -d
     make pull
-    docker pull vgoroshenko/the-internet-demo
     pip install -r .\requirements.txt
 
-Start the server:
+Start selenoid server:
+
+    docker-compose up -d
+
+Start web server:
 
     docker run -p 5000:5000 -d -it vgoroshenko/the-internet-demo
 
