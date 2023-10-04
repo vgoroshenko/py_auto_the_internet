@@ -14,7 +14,7 @@ Load the page you want to see in your browser:
     http://localhost:5000/
 
 Start tests:
-
+ 
     pytest -v --tb=line --alluredir=reports -n 3
 
 
