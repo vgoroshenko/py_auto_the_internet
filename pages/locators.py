@@ -88,6 +88,10 @@ class EntryAdLocators():
     RE_ENABLE_BUTTON = (By.CSS_SELECTOR, '#restart-ad')
     POPUP = (By.CSS_SELECTOR, '.modal')
 
+class ExitIntentLocators():
+    LOADED_PAGE = (By.XPATH, "//a[@href='/exit_intent']")
+    CLOSE_BUTTON = (By.CSS_SELECTOR, "div[class='modal-footer']")
+    POPUP = (By.CSS_SELECTOR, '.modal')
 
 class UrlLocators():
     MAIN_URL = "http://172.17.0.1:5000/"

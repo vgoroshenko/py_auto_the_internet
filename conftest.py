@@ -41,7 +41,11 @@ def desired_caps(browser: str):
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-extensions")
     options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--headless")
+    #options.add_argument("--headless")
+    options.add_argument('--disable-gpu') if os.name == 'nt' else None
+    options.add_argument('--verbose')
+    options.add_argument('--incognito')
+    options.add_argument('--disable-cache')
     caps = options
     return caps
 
@@ -53,6 +57,9 @@ def get_web_driver(browser_name: str):
             command_executor=config.webdriver_host,
             options=desired_caps(browser_name)
         )
+        # browser = webdriver.Chrome(
+        #     options=desired_caps(browser_name)
+        # )
     except WebDriverException as e:
         pytest.exit(print(e))
     return browser

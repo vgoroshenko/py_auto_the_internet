@@ -22,6 +22,16 @@ services:
       - "8080:8080"
     command: [ "--selenoid-uri", "http://selenoid:4444" ]
 
+
+  web:
+    image: vgoroshenko/the-internet-demo
+    network_mode: bridge
+    restart: always
+    links:
+      - selenoid
+    ports:
+      - "5000:5000"
+
 #  selenoid-chrome:
 #    image: selenoid/chrome:latest
 #    init: true

@@ -3,15 +3,11 @@
 Install your dependencies:
 
     make pull
-    pip install -r .\requirements.txt
+    pip install -r requirements.txt
 
 Start selenoid server:
 
     docker-compose up -d
-
-Start web server:
-
-    docker run -p 5000:5000 -d -it vgoroshenko/the-internet-demo
 
 Load the page you want to see in your browser:
 
