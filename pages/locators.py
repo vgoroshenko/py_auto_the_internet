@@ -82,17 +82,34 @@ class DynamicallyLoadedLocators():
     LOADING_BAR = (By.CSS_SELECTOR, '#loading')
     FINISH_TEXT = (By.CSS_SELECTOR, '#finish')
 
+
 class EntryAdLocators():
     LOADED_PAGE = (By.XPATH, "//a[@href='/entry_ad']")
     CLOSE_BUTTON = (By.CSS_SELECTOR, "div[class='modal-footer']")
     RE_ENABLE_BUTTON = (By.CSS_SELECTOR, '#restart-ad')
     POPUP = (By.CSS_SELECTOR, '.modal')
 
+
 class ExitIntentLocators():
     LOADED_PAGE = (By.XPATH, "//a[@href='/exit_intent']")
     CLOSE_BUTTON = (By.CSS_SELECTOR, "div[class='modal-footer']")
     POPUP = (By.CSS_SELECTOR, '.modal')
 
+
+class FileDownloadLocators():
+    LOADED_PAGE = (By.XPATH, "//a[@href='/download']")
+    FILE = (By.CSS_SELECTOR, "div[class='example'] a")
+
+
+class FileUploadLocators():
+    LOADED_PAGE = (By.XPATH, "//a[@href='/upload']")
+    FILE_UPLOAD = (By.CSS_SELECTOR, "#file-upload")
+    FILE_SUBMIT = (By.CSS_SELECTOR, '#file-submit')
+    FILE_UPLOAD_DRAG_AND_DROP = (By.CSS_SELECTOR, '#drag-drop-upload')
+    UPLOADED_FILE = (By.CSS_SELECTOR, '#uploaded-files')
+
+
+
 class UrlLocators():
     MAIN_URL = "http://172.17.0.1:5000/"
-    #MAIN_URL = "http://localhost:5000/"
+    # MAIN_URL = "http://localhost:5000/"

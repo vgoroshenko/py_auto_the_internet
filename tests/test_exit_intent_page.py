@@ -2,11 +2,14 @@ import pytest
 
 from pages.exit_intent_page import ExitIntent
 
+
 def test_go_to_page(browser):
     page = ExitIntent(browser)
     page.go_to_page()
     page.should_be_correct_page()
-@pytest.mark.xfail #Dont work in docker
+
+
+@pytest.mark.xfail  # Dont work in docker
 class TestPopup():
     def test_show_popup(self, browser):
         page = ExitIntent(browser)
