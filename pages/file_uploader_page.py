@@ -65,3 +65,8 @@ class FileUploader(BasePage):
     def should_be_uploaded_file(self):
         uploaded_text = self.get_text(*FileUploadLocators.UPLOADED_FILE)
         assert 'some-file.txt' in uploaded_text, 'should be uploaded file, but not'
+
+    def should_be_uploaded_file_drag(self):
+        uploaded_text = self.get_text(*FileUploadLocators.UPLOADED_FILE_ERROR_SUMMARY)
+        assert 'NoMethodError' in uploaded_text, 'should be uploaded file, but not'
+

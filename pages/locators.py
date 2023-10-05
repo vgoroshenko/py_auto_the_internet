@@ -107,7 +107,7 @@ class FileUploadLocators():
     FILE_SUBMIT = (By.CSS_SELECTOR, '#file-submit')
     FILE_UPLOAD_DRAG_AND_DROP = (By.CSS_SELECTOR, '#drag-drop-upload')
     UPLOADED_FILE = (By.CSS_SELECTOR, '#uploaded-files')
-
+    UPLOADED_FILE_ERROR_SUMMARY = (By.CSS_SELECTOR, '#summary')
 
 
 class UrlLocators():
