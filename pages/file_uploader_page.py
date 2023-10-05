@@ -12,18 +12,6 @@ class FileUploader(BasePage):
         submit_button = self.browser.find_element(*FileUploadLocators.FILE_SUBMIT)
         submit_button.click()
 
-    def upload_file(self):
-        file_input = self.browser.find_element(*FileUploadLocators.FILE_UPLOAD)
-        file_input.send_keys('./tests/test_data/some-file.txt')
-        self.click_upload()
-
-    def upload_file_drag_and_drop(self):
-        file_path = './tests/test_data/some-file.txt'
-        upload_element = self.browser.find_element(*FileUploadLocators.FILE_UPLOAD_DRAG_AND_DROP)
-        # action_chains = ActionChains(self.browser)
-        # action_chains.drag_and_drop(file_path, upload_element).perform()
-        upload_element.send_keys(file_path)
-
     def drag_and_drop_file(self):
         JS_DROP_FILE = """
         var target = arguments[0],
@@ -57,6 +45,18 @@ class FileUploader(BasePage):
         path = './tests/test_data/some-file.txt'
         file_input.send_keys(path)
 
+    def upload_file(self):
+        file_input = self.browser.find_element(*FileUploadLocators.FILE_UPLOAD)
+        file_input.send_keys('./tests/test_data/some-file.txt')
+        self.click_upload()
+
+    def upload_file_drag_and_drop(self):
+        file_path = './tests/test_data/some-file.txt'
+        upload_element = self.browser.find_element(*FileUploadLocators.FILE_UPLOAD_DRAG_AND_DROP)
+        # action_chains = ActionChains(self.browser)
+        # action_chains.drag_and_drop(file_path, upload_element).perform()
+        upload_element.send_keys(file_path)
+
     def should_be_correct_page(self):
         text = self.get_text(*BasePageLocators.PAGE_NAME)
         correct_text = 'File Uploader'
@@ -69,4 +69,3 @@ class FileUploader(BasePage):
     def should_be_uploaded_file_drag(self):
         uploaded_text = self.get_text(*FileUploadLocators.UPLOADED_FILE_ERROR_SUMMARY)
         assert 'NoMethodError' in uploaded_text, 'should be uploaded file, but not'
-
