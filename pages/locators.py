@@ -135,6 +135,14 @@ class FramesLocators:
     IFRAME_ID = (By.CSS_SELECTOR, '#mce_0_ifr')
 
 
+class GeolocationLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/geolocation']")
+    BUTTON_WHERE_I_AM = (By.CSS_SELECTOR, '.example button')
+    BUTTON_GOOGLE_MAP = (By.CSS_SELECTOR, '#map-link > a')
+    LATITUDE_COORD = (By.CSS_SELECTOR, '#lat-value')
+    LONGITUDE_COORD = (By.CSS_SELECTOR, '#long-value')
+
+
 class UrlLocators:
     MAIN_URL = "http://172.17.0.1:5000/"
     # MAIN_URL = "http://localhost:5000/"
