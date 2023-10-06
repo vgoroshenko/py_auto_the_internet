@@ -92,6 +92,12 @@ class BasePage:
             return False
         return what.click()
 
+    def hold_on_locator_and_move_to_target(self, how, what, target):
+        action = ActionChains(self.browser)
+        action.click_and_hold(self.browser.find_element(how, what))
+        action.move_to_element(self.browser.find_element(*target))
+        action.perform()
+
     def right_click(self, what, timeout=4):
         try:
             WebDriverWait(self.browser, timeout).until(EC.element_to_be_clickable((what)))
