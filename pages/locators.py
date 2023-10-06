@@ -123,6 +123,18 @@ class FormAuthenticationLocators:
     ERROR_MESSAGE = (By.CSS_SELECTOR, '.flash.error')
 
 
+class FramesLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/frames']")
+    NESTED_FRAMES_BUTTON = (By.XPATH, "//a[@href='/nested_frames']")
+    IFRAMES_BUTTON = (By.XPATH, "//a[@href='/iframe']")
+    FRAMES = (By.CSS_SELECTOR, "frame")
+    FRAME_LEFT = (By.CSS_SELECTOR, 'frame[name="frame-left"]')
+    FRAME_BODY = (By.CSS_SELECTOR, 'body')
+    FIELD_IFRAME = (By.CSS_SELECTOR, '#tinymce > p')
+    IFRAMES = (By.TAG_NAME, 'iframe')
+    IFRAME_ID = (By.CSS_SELECTOR, '#mce_0_ifr')
+
+
 class UrlLocators:
     MAIN_URL = "http://172.17.0.1:5000/"
     # MAIN_URL = "http://localhost:5000/"

@@ -52,14 +52,17 @@ def desired_caps(browser: str):
 
 def get_web_driver(browser_name: str):
     browser = None
+    flag = 1
     try:
-        browser = webdriver.Remote(
-            command_executor=config.webdriver_host,
-            options=desired_caps(browser_name)
-        )
-        # browser = webdriver.Chrome(
-        #     options=desired_caps(browser_name)
-        # )
+        if flag:
+            browser = webdriver.Remote(
+                command_executor=config.webdriver_host,
+                options=desired_caps(browser_name)
+            )
+        else:
+            browser = webdriver.Chrome(
+                options=desired_caps(browser_name)
+            )
     except WebDriverException as e:
         pytest.exit(print(e))
     return browser

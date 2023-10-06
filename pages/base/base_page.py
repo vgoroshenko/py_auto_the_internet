@@ -6,7 +6,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import Select
 
 
-class BasePage():
+class BasePage:
     def __init__(self, browser, url=UrlLocators.MAIN_URL, timeout=4):
         self.browser = browser
         self.url = url
@@ -104,6 +104,33 @@ class BasePage():
         select = Select(self.browser.find_element(how, what))
         select.select_by_value(value)
 
+    def switch_to_frame(self, how, what):
+        while True:
+            try:
+                self.browser.switch_to.frame(self.browser.find_element(how, what))
+                break
+            except NoSuchElementException:
+                raise NoSuchElementException('Фрейм не найден')
+
+    def switch_to_frame_with_locator(self, how, what, iframe):
+        try:
+            self.browser.switch_to.default_content()
+            frame_found = False
+            while not frame_found:
+                frames = self.browser.find_elements(*iframe)
+                for frame in frames:
+                    self.browser.switch_to.frame(frame)
+                    try:
+                        locator_frame = self.browser.find_element(how, what)
+                        self.browser.switch_to.frame(locator_frame)
+                        frame_found = True
+                        break
+                    except NoSuchElementException:
+                        self.browser.switch_to.default_content()
+                if not frame_found:
+                    raise NoSuchElementException('Фрейм с указанным локатором не найден')
+        except NoSuchElementException as e:
+            print('Ошибка:', str(e))
 
     def open(self):
         self.browser.get(self.url)
