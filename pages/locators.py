@@ -147,6 +147,9 @@ class HorizontalSliderLocators:
     SLIDER = (By.CSS_SELECTOR, '.sliderContainer > input')
     SLIDER_VALUE = (By.CSS_SELECTOR, '#range')
 
+class HoverLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/horizontal_slider']")
+
 
 class UrlLocators:
     MAIN_URL = "http://172.17.0.1:5000/"
