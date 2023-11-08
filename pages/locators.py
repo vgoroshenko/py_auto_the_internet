@@ -148,7 +148,7 @@ class HorizontalSliderLocators:
     SLIDER_VALUE = (By.CSS_SELECTOR, '#range')
 
 class HoverLocators:
-    LOADED_PAGE = (By.XPATH, "//a[@href='/horizontal_slider']")
+    LOADED_PAGE = (By.XPATH, "//a[@href='/hovers']")
 
 
 class UrlLocators:
