@@ -54,7 +54,7 @@ jobs:
 
       - name: Deploy report🚀
         if: always()
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
           branch: gh-pages
           folder: allure-report
