@@ -1,8 +1,11 @@
-## Getting Started
+## Getting Started Test the internet in chrome
+
+
 
 Install your dependencies:
 
     make pull
+    venv/Scripts/activate
     pip install -r requirements.txt
 
 Start selenoid server:
