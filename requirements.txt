@@ -2,3 +2,4 @@ allure-pytest==2.13.2
 pytest==7.4.0
 selenium==4.15.2
 PyAutoGUI==0.9.54
+pytest-xdist==2.5.0
