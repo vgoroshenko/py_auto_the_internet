@@ -24,7 +24,6 @@ class FileDownloader(BasePage):
             download_dir = f"E:\\Downloads"
         file_name = "some-file.txt"
         file_path = os.path.join(download_dir, file_name)
-        print(os.path.abspath(__file__), 'qwdqwd')
         assert os.path.exists(file_path), f'should be downloaded file, but not'
 
     def should_be_correct_page(self):

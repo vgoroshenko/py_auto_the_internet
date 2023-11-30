@@ -1,3 +1,5 @@
+import time
+
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, NoAlertPresentException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -29,17 +31,24 @@ class BasePage:
         assert False, 'should be alert not present, but yes'
 
     def alert_dismiss(self):
-        alert = self.browser.switch_to_alert()
+        alert = self.browser.switch_to.alert
         alert.dismiss()
 
     def alert_accept(self):
         alert = self.browser.switch_to.alert
         alert.accept()
 
+    def alert_set_text(self, text):
+        alert = self.browser.switch_to.alert
+        alert.send_keys(text)
+
     def drag_to_element(self, what, where):
         actions = ActionChains(self.browser)
         actions.drag_and_drop(self.browser.find_element(*what), self.browser.find_element(*where))
         actions.perform()
+
+    def get_browser_console_log(self):
+        return self.browser.get_log("browser")
 
     def get_alert_text(self):
         alert = self.browser.switch_to.alert
@@ -48,7 +57,7 @@ class BasePage:
     def get_text(self, how, what):
         return self.browser.find_element(how, what).text
 
-    def is_disappeared(self, how, what, timeout=4):
+    def is_disappeared(self, how, what, timeout=2):
         try:
             WebDriverWait(self.browser, timeout, 1, [TimeoutException]). \
                 until_not(EC.presence_of_element_located((how, what)) and EC.visibility_of_element_located((how, what)))
@@ -74,6 +83,14 @@ class BasePage:
             return False
         return True
 
+    def is_element_displayed(self, elem):
+        return True if elem.is_displayed() else False
+        # try:
+        #     self.browser.find_element(how, what).is_displayed()
+        # except:
+        #     return False
+        # return True
+
     def is_not_element_present(self, how, what):
         try:
             self.browser.find_element(how, what)
@@ -92,6 +109,11 @@ class BasePage:
             return False
         return what.click()
 
+    def move_mouse_to_element(self, elem):
+        action = ActionChains(self.browser)
+        action.move_to_element(elem)
+        action.perform()
+
     def hold_on_locator_and_move_to_target(self, how, what, target):
         action = ActionChains(self.browser)
         action.click_and_hold(self.browser.find_element(how, what))
@@ -109,6 +131,10 @@ class BasePage:
     def select_element_with_value(self, how, what, value):
         select = Select(self.browser.find_element(how, what))
         select.select_by_value(value)
+
+    def switch_window(self):
+        all_windows = self.browser.window_handles
+        self.browser.switch_to.window(all_windows[1])
 
     def switch_to_frame(self, how, what):
         while True:

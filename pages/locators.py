@@ -149,8 +149,98 @@ class HorizontalSliderLocators:
 
 class HoverLocators:
     LOADED_PAGE = (By.XPATH, "//a[@href='/hovers']")
+    PERSONS = (By.CSS_SELECTOR, '.figure')
+    PERSONS_NAME = (By.CSS_SELECTOR, '.figcaption h5')
+    PERSONS_LINK = (By.CSS_SELECTOR, '.figcaption a')
 
+class InfinityScrollLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/infinite_scroll']")
+    SCROLLED_ROW = (By.CSS_SELECTOR, '.jscroll-added')
 
+class InputsLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/inputs']")
+    INPUT = (By.CSS_SELECTOR, '[type="number"]')
+
+class JQueryUIMenusLocators:
+    LOADED_PAGE = (By.XPATH, "//a[contains(@href, '/jqueryui/menu')]")
+    BUTTON_ENABLED = (By.CSS_SELECTOR, '#ui-id-2')
+    BUTTON_DOWNLOADS = (By.CSS_SELECTOR, '#ui-id-4')
+    BUTTON_BACK = (By.CSS_SELECTOR, '#ui-id-5')
+    BUTTON_PDF = (By.CSS_SELECTOR, '#ui-id-5')
+    BUTTON_CSV = (By.CSS_SELECTOR, '#ui-id-5')
+    BUTTON_EXCEL = (By.CSS_SELECTOR, '#ui-id-5')
+
+class JSAlertsLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/javascript_alerts']")
+    JS_ALERT = (By.CSS_SELECTOR, "button[onclick='jsAlert()']")
+    JS_ALERT_CONFIRM = (By.CSS_SELECTOR, "button[onclick='jsConfirm()']")
+    JS_ALERT_PROMT = (By.CSS_SELECTOR, "button[onclick='jsPrompt()']")
+    RESULT_TEXT = (By.CSS_SELECTOR, "#result")
+
+class JSOnloadLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/javascript_error']")
+    PAGE_NAME = (By.CSS_SELECTOR, "p")
+
+class KeyPressesLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/key_presses']")
+    INPUT_TEXT = (By.CSS_SELECTOR, '#target')
+    INPUT_TEXT_RESULT = (By.CSS_SELECTOR, '#result')
+
+class LargeDomLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/large']")
+
+class MultipleWindowLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/windows']")
+    BUTTON = (By.CSS_SELECTOR, '.example a')
+
+class NotificationMessagesLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/notification_message']")
+    BUTTON_ACTION = (By.CSS_SELECTOR, 'p a')
+    BUTTON_CLOSE_NOTIF = (By.CSS_SELECTOR, '.close')
+    NOTIFICATION = (By.CSS_SELECTOR, '#flash')
+
+class RedirectLinkLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/redirector']")
+    BUTTON_REDIRECT = (By.CSS_SELECTOR, '#redirect')
+    BUTTON_200 = (By.XPATH, "//a[@href='status_codes/200']")
+    BUTTON_301 = (By.XPATH, "//a[@href='status_codes/301']")
+    BUTTON_404 = (By.XPATH, "//a[@href='status_codes/404']")
+    BUTTON_501 = (By.XPATH, "//a[@href='status_codes/500']")
+    BUTTON_RETURN = (By.XPATH, "//a[@href='/status_codes']")
+    STATUS_CODE_TEXT = (By.CSS_SELECTOR, 'p')
+
+class SecureFileDownloadLinkLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/download_secure']")
+    BUTTON_DOWNLOAD = (By.CSS_SELECTOR, '.example a')
+
+class ShadowDOMLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/shadowdom']")
+    PAGE_NAME = (By.CSS_SELECTOR, "h1")
+    FIRST_TEXT = (By.CSS_SELECTOR, 'span')
+    SECOND_TEXT = (By.CSS_SELECTOR, "ul li:nth-child(1)")
+    THIRD_TEXT = (By.CSS_SELECTOR, 'ul li:nth-child(2)')
+
+class ShiftingContentLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/shifting_content']")
+    BUTTON_EXAMPLE_1 = (By.XPATH, "//a[@href='/shifting_content/menu']")
+    BUTTON_EXAMPLE_2 = (By.XPATH, "//a[@href='/shifting_content/image']")
+    BUTTON_EXAMPLE_3 = (By.XPATH, "//a[@href='/shifting_content/list']")
+    BUTTON_MOVED = (By.CSS_SELECTOR, '.shift')
+    BUTTON_MODE_RANDOM = (By.XPATH, "//a[@href='/shifting_content/menu?mode=random']")
+    BUTTON_MODE_PIXEL_SHIFT = (By.XPATH, "//a[@href='/shifting_content/menu?pixel_shift=100']")
+    BUTTON_MODE_IMAGE_PIXEL_SHIFT = (By.XPATH, "//a[@href='/shifting_content/image?pixel_shift=100']")
+    BUTTON_MODE_RANDOM_PIXEL_SHIFT = (By.XPATH, "//a[@href='/shifting_content/menu?mode=random&pixel_shift=100']")
+    BUTTON_IMAGE_TYPE = (By.XPATH, "//a[contains(@href, 'type')]")
+    LIST_TEXT = (By.CSS_SELECTOR, "div[class^='large-6']")
+
+class StatusCodeLocators:
+    LOADED_PAGE = (By.XPATH, "//a[@href='/status_codes']")
+    BUTTON_200 = (By.XPATH, "//a[@href='status_codes/200']")
+    BUTTON_301 = (By.XPATH, "//a[@href='status_codes/301']")
+    BUTTON_404 = (By.XPATH, "//a[@href='status_codes/404']")
+    BUTTON_501 = (By.XPATH, "//a[@href='status_codes/500']")
+    BUTTON_RETURN = LOADED_PAGE
+    STATUS_CODE_TEXT = (By.CSS_SELECTOR, 'p')
 class UrlLocators:
     MAIN_URL = "http://172.17.0.1:5000/"
-    # MAIN_URL = "http://localhost:5000/"
+     #MAIN_URL = "http://localhost:5000/"
