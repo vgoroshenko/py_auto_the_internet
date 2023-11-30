@@ -12,15 +12,15 @@ services:
     command: ["-limit=10", "-mem=256m", "-cpu=1.0", "-session-delete-timeout=3s", "-timeout=7s"]
 
 
-  selenoid-ui:
-    image: aerokube/selenoid-ui:latest-release
-    network_mode: bridge
-    restart: always
-    links:
-      - selenoid
-    ports:
-      - "8080:8080"
-    command: [ "--selenoid-uri", "http://selenoid:4444" ]
+#  selenoid-ui:
+#    image: aerokube/selenoid-ui:latest-release
+#    network_mode: bridge
+#    restart: always
+#    links:
+#      - selenoid
+#    ports:
+#      - "8080:8080"
+#    command: [ "--selenoid-uri", "http://selenoid:4444" ]
 
 
   web:
