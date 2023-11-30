@@ -18,4 +18,4 @@ class JSOnload(BasePage):
         text = "xyz"
         new_log = [i['message'] for i in log if text in i['message']]
         print(new_log)
-        assert new_log == True, f"should be {text} in {new_log}, but not"
+        assert len(new_log) == 1, f"should be {text} in {new_log}, but not"
