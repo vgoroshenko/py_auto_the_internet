@@ -1,0 +1,126 @@
+{
+  "uid" : "a6f3ed2e6b08b196",
+  "name" : "test_download[Browser: Chrome]",
+  "fullName" : "tests.test_secure_download_page#test_download",
+  "historyId" : "13c7c4011e196d1baf92901560eaf6d6",
+  "time" : {
+    "start" : 1701425927027,
+    "stop" : 1701425927304,
+    "duration" : 277
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: should be downloaded file, but not",
+  "statusTrace" : "E   AssertionError: should be downloaded file, but not",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1701425889727,
+      "stop" : 1701425892127,
+      "duration" : 2400
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: should be downloaded file, but not",
+    "statusTrace" : "E   AssertionError: should be downloaded file, but not",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8cce2700ed91ab97",
+      "name" : "step_screenshot_10:18:47",
+      "source" : "8cce2700ed91ab97.png",
+      "type" : "image/png",
+      "size" : 57165
+    }, {
+      "uid" : "b17dabfd4240208a",
+      "name" : "step_screenshot_10:18:47",
+      "source" : "b17dabfd4240208a.png",
+      "type" : "image/png",
+      "size" : 32812
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1701425927731,
+      "stop" : 1701425927912,
+      "duration" : 181
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3dbbe8ea2a4fbfb9",
+      "name" : "QuitBrowser_10:18:47",
+      "source" : "3dbbe8ea2a4fbfb9.png",
+      "type" : "image/png",
+      "size" : 32812
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_secure_download_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1493-234"
+  }, {
+    "name" : "thread",
+    "value" : "2429-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_secure_download_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a6f3ed2e6b08b196.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

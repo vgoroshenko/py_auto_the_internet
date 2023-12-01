@@ -1,0 +1,1011 @@
+[ {
+  "uid" : "473fb8789fb41760",
+  "name" : "test_should_view_context[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425894859,
+    "stop" : 1701425895522,
+    "duration" : 663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb79a80b3f2bf539",
+  "name" : "test_fail_login[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425922133,
+    "stop" : 1701425922392,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adce836bfd15357f",
+  "name" : "test_close_popup[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425898235,
+    "stop" : 1701425899767,
+    "duration" : 1532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3427950dfa88c9e4",
+  "name" : "test_add_multiple_elements[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425892284,
+    "stop" : 1701425893149,
+    "duration" : 865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fe9ba3c795cdd3b",
+  "name" : "test_example_3_100_pixel_shift[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425923756,
+    "stop" : 1701425924369,
+    "duration" : 613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7ba6683b9fe296",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425921527,
+    "stop" : 1701425921947,
+    "duration" : 420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7daf98493776b8e6",
+  "name" : "test_js_confirm_alert_result[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425916171,
+    "stop" : 1701425916698,
+    "duration" : 527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9608ad67b7f1f68",
+  "name" : "test_js_prompt_alert_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425913726,
+    "stop" : 1701425914303,
+    "duration" : 577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "478609a874610f77",
+  "name" : "test_success_notification[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425919987,
+    "stop" : 1701425920799,
+    "duration" : 812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cb1bc11cf614bea",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425896163,
+    "stop" : 1701425896437,
+    "duration" : 274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc941f0c54d6c25",
+  "name" : "test_open_profile[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425907560,
+    "stop" : 1701425908604,
+    "duration" : 1044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3431bdfbb0c6609",
+  "name" : "test_js_alert_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425914875,
+    "stop" : 1701425915500,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b342d0e5c7a84ae4",
+  "name" : "test_go_to_status_301_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425924981,
+    "stop" : 1701425925524,
+    "duration" : 543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d911a635475df0f6",
+  "name" : "test_js_alert_dont_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425913448,
+    "stop" : 1701425914051,
+    "duration" : 603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bff902e350ec3633",
+  "name" : "test_remove_element[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425892559,
+    "stop" : 1701425897478,
+    "duration" : 4919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b9587a38bfd2c0f",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425920026,
+    "stop" : 1701425920611,
+    "duration" : 585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cb6b1486b6fc11b",
+  "name" : "test_re_enable_popup[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425900634,
+    "stop" : 1701425903316,
+    "duration" : 2682
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "919839dfaa732a42",
+  "name" : "test_drag_and_drop[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425900274,
+    "stop" : 1701425901233,
+    "duration" : 959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d879d659e4b76cc",
+  "name" : "test_present_notification[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425920082,
+    "stop" : 1701425920744,
+    "duration" : 662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be62c8466fcadfbb",
+  "name" : "test_close_notification[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425920631,
+    "stop" : 1701425926634,
+    "duration" : 6003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eba0a87b504d4184",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425915516,
+    "stop" : 1701425916584,
+    "duration" : 1068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b18f6a3fbabf0e09",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425907699,
+    "stop" : 1701425908149,
+    "duration" : 450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da1f53d79a2b2b5f",
+  "name" : "test_correct_text_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425922617,
+    "stop" : 1701425923073,
+    "duration" : 456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2848a156948bba22",
+  "name" : "test_example_1_100_pixel_shift[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425923091,
+    "stop" : 1701425924041,
+    "duration" : 950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "569751c771463791",
+  "name" : "test_go_to_redirect_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425921415,
+    "stop" : 1701425921962,
+    "duration" : 547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac1439d4236d6858",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425905097,
+    "stop" : 1701425905438,
+    "duration" : 341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffc379c1db2524d3",
+  "name" : "test_go_to_status_501_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425925059,
+    "stop" : 1701425925649,
+    "duration" : 590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e1bf132182c500",
+  "name" : "test_slider[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425917262,
+    "stop" : 1701425918310,
+    "duration" : 1048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5d7b56fbd60df32",
+  "name" : "test_remove_multiple_elements[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425894085,
+    "stop" : 1701425898599,
+    "duration" : 4514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab7def3716547dff",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425903144,
+    "stop" : 1701425903447,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69184994d0ef07a8",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425919037,
+    "stop" : 1701425919479,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ed1be72239b2d3a",
+  "name" : "test_logout[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425902194,
+    "stop" : 1701425903066,
+    "duration" : 872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f52ebac2304d1eff",
+  "name" : "test_error_in_console[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425917616,
+    "stop" : 1701425917887,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "815e6ed3f48df6a2",
+  "name" : "test_go_to_broken_image[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425898156,
+    "stop" : 1701425898550,
+    "duration" : 394
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cbb93ffade0925cf",
+  "name" : "test_iframes[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425905425,
+    "stop" : 1701425906898,
+    "duration" : 1473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8a3d44e6d44d3f",
+  "name" : "test_scroll_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425910229,
+    "stop" : 1701425911646,
+    "duration" : 1417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d791d8b1ca4011ca",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425910253,
+    "stop" : 1701425910690,
+    "duration" : 437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "654038bbc06f3169",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425912469,
+    "stop" : 1701425912773,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6faccba60ff32a88",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425914430,
+    "stop" : 1701425914781,
+    "duration" : 351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7733118677cb0bb",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425902037,
+    "stop" : 1701425902354,
+    "duration" : 317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e16a120c5363731",
+  "name" : "test_download_pdf[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425912160,
+    "stop" : 1701425912901,
+    "duration" : 741
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b27caa36ee5268",
+  "name" : "test_go_back_to_menu[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425911252,
+    "stop" : 1701425912056,
+    "duration" : 804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d11674907fb3e3b6",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425906137,
+    "stop" : 1701425906636,
+    "duration" : 499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f552e1b73473952e",
+  "name" : "test_login[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425900860,
+    "stop" : 1701425901539,
+    "duration" : 679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "204a1f74d0a2a923",
+  "name" : "test_show_popup[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425915835,
+    "stop" : 1701425917228,
+    "duration" : 1393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64677575b7fb9264",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425913619,
+    "stop" : 1701425914023,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d81f1eba8b03be8",
+  "name" : "test_js_confirm_alert_dont_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425914954,
+    "stop" : 1701425915560,
+    "duration" : 606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6a5812d080d0920",
+  "name" : "test_js_confirm_alert_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425912755,
+    "stop" : 1701425913156,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6f3ed2e6b08b196",
+  "name" : "test_download[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425927027,
+    "stop" : 1701425927304,
+    "duration" : 277
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "56e3665636b359ea",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425917984,
+    "stop" : 1701425918343,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3672a769b97e5ac7",
+  "name" : "test_second_example_show_load_bar[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425906311,
+    "stop" : 1701425907001,
+    "duration" : 690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b59cd7da875a37d",
+  "name" : "test_google_link[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425905181,
+    "stop" : 1701425909020,
+    "duration" : 3839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "667c59b86af37668",
+  "name" : "test_second_example_final_text_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425907813,
+    "stop" : 1701425913633,
+    "duration" : 5820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42efbf01c2ebea96",
+  "name" : "test_js_prompt_cancel_alert_result[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425917607,
+    "stop" : 1701425918079,
+    "duration" : 472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d822f1185a40d1",
+  "name" : "test_js_alert_result[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425916285,
+    "stop" : 1701425916841,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "740f4fc2fe46d3c3",
+  "name" : "test_present_checkboxes_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425894792,
+    "stop" : 1701425895246,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e110e795ee800dba",
+  "name" : "test_dont_changed_content[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425901825,
+    "stop" : 1701425902512,
+    "duration" : 687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0fd613ff2289710",
+  "name" : "test_go_to_status_200_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425924791,
+    "stop" : 1701425925331,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d58a029bee95f6e6",
+  "name" : "test_select_dropdown_element[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425903004,
+    "stop" : 1701425903442,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9408938ef57029fc",
+  "name" : "test_result_entered_text[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425918600,
+    "stop" : 1701425919273,
+    "duration" : 673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c104c8b9dc7120a",
+  "name" : "test_js_prompt_alert_result[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425916378,
+    "stop" : 1701425916893,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dc2c6381563671f",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425896758,
+    "stop" : 1701425897501,
+    "duration" : 743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "226e384badcc36cd",
+  "name" : "test_show_profile_hover[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425906104,
+    "stop" : 1701425906823,
+    "duration" : 719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32cf9f21bfaeeba9",
+  "name" : "test_go_to_new_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425919090,
+    "stop" : 1701425919849,
+    "duration" : 759
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d88c769a5a741970",
+  "name" : "test_js_prompt_alert_dont_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425914880,
+    "stop" : 1701425915430,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c7dca42d49f3993",
+  "name" : "test_failed_login[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425903732,
+    "stop" : 1701425904422,
+    "duration" : 690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "249d223df28c5ccb",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425922643,
+    "stop" : 1701425922996,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7db6307a62a7b284",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425897006,
+    "stop" : 1701425897331,
+    "duration" : 325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d16ad69f91ade609",
+  "name" : "test_unsuccessful_basic_auth_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425893911,
+    "stop" : 1701425894184,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24cd537c511669f8",
+  "name" : "test_unique_elements_after_click_button[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425899340,
+    "stop" : 1701425901338,
+    "duration" : 1998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17c683d4e96b3df",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425899702,
+    "stop" : 1701425900174,
+    "duration" : 472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dac5e31484dda346",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425923680,
+    "stop" : 1701425924075,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "240f2fb1cc5717d8",
+  "name" : "test_nested_frames[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425904074,
+    "stop" : 1701425904718,
+    "duration" : 644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea7f9fc47accb92b",
+  "name" : "test_change_element_counts[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425895812,
+    "stop" : 1701425896208,
+    "duration" : 396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93a36fff930781a4",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425908972,
+    "stop" : 1701425909397,
+    "duration" : 425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "777e411f4395e42d",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425903948,
+    "stop" : 1701425904250,
+    "duration" : 302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a61e421cffae95",
+  "name" : "test_unsuccess_notification[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425920283,
+    "stop" : 1701425921433,
+    "duration" : 1150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "332606b00c1bad92",
+  "name" : "test_file_download[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425904909,
+    "stop" : 1701425905271,
+    "duration" : 362
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8f2d28b637476b8",
+  "name" : "test_go_add_remove_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425892331,
+    "stop" : 1701425893269,
+    "duration" : 938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c02da658bb35ac3f",
+  "name" : "test_example_2_100_pixel_shift[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425923537,
+    "stop" : 1701425924249,
+    "duration" : 712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87f5f5a79d340e6d",
+  "name" : "test_upload_drag_and_drop_file[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425898045,
+    "stop" : 1701425898847,
+    "duration" : 802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7832f7fcaf9ead6b",
+  "name" : "test_success_login[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425921521,
+    "stop" : 1701425921971,
+    "duration" : 450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ef0f606be4baeb7",
+  "name" : "test_first_example_final_text_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425899806,
+    "stop" : 1701425905700,
+    "duration" : 5894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66f6604738b47620",
+  "name" : "test_go_to_status_404_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425924733,
+    "stop" : 1701425925283,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9035401608546704",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425922555,
+    "stop" : 1701425922887,
+    "duration" : 332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "485f72f1e669a9fc",
+  "name" : "test_change_content[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425896762,
+    "stop" : 1701425897801,
+    "duration" : 1039
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a9be480449abcf7",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425899071,
+    "stop" : 1701425899426,
+    "duration" : 355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8407b99a22e59e80",
+  "name" : "test_dont_present_result[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425918838,
+    "stop" : 1701425919370,
+    "duration" : 532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb7f5c3c8d4d81ea",
+  "name" : "test_change_number[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425908860,
+    "stop" : 1701425909620,
+    "duration" : 760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b21c3d1c71d9a1fc",
+  "name" : "test_success_basic_auth_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425894024,
+    "stop" : 1701425894328,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4b3793357d7d10",
+  "name" : "test_add_element[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425892291,
+    "stop" : 1701425893336,
+    "duration" : 1045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74bd71e7d06799ac",
+  "name" : "test_js_confirm_alert_cancel_result[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425917517,
+    "stop" : 1701425918018,
+    "duration" : 501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c00c371d7683f2ed",
+  "name" : "test_all_profiles_hover_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425909294,
+    "stop" : 1701425911423,
+    "duration" : 2129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63c6df93fb758015",
+  "name" : "test_upload_file[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425907381,
+    "stop" : 1701425908266,
+    "duration" : 885
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "227d05eb0ce89ae6",
+  "name" : "test_ab_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425892403,
+    "stop" : 1701425893348,
+    "duration" : 945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcf488c2a870bd2c",
+  "name" : "test_press_checkbox[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425894922,
+    "stop" : 1701425895318,
+    "duration" : 396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ddbebbb0521c082",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425918892,
+    "stop" : 1701425919295,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29ab0e4a023ff981",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425895861,
+    "stop" : 1701425896147,
+    "duration" : 286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "372d98a5876eb364",
+  "name" : "test_present_challenging_dom_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425893828,
+    "stop" : 1701425894205,
+    "duration" : 377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c92947e77e2cd1b4",
+  "name" : "test_first_example_show_load_bar[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425898553,
+    "stop" : 1701425899089,
+    "duration" : 536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bda33d2aa9342c7c",
+  "name" : "test_present_geolocation[Browser: Chrome]",
+  "time" : {
+    "start" : 1701425904112,
+    "stop" : 1701425904527,
+    "duration" : 415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

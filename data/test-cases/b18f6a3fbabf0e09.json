@@ -1,0 +1,124 @@
+{
+  "uid" : "b18f6a3fbabf0e09",
+  "name" : "test_go_to_page[Browser: Chrome]",
+  "fullName" : "tests.test_geolocation_page#test_go_to_page",
+  "historyId" : "e17515ed191c5fe995c16a1e009b93a4",
+  "time" : {
+    "start" : 1701425907699,
+    "stop" : 1701425908149,
+    "duration" : 450
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1701425889727,
+      "stop" : 1701425892418,
+      "duration" : 2691
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "53f65a16b45d6966",
+      "name" : "step_screenshot_10:18:27",
+      "source" : "53f65a16b45d6966.png",
+      "type" : "image/png",
+      "size" : 66641
+    }, {
+      "uid" : "130e7327d1f25935",
+      "name" : "step_screenshot_10:18:28",
+      "source" : "130e7327d1f25935.png",
+      "type" : "image/png",
+      "size" : 35850
+    }, {
+      "uid" : "d6dc45ba11ff80f5",
+      "name" : "step_screenshot_10:18:28",
+      "source" : "d6dc45ba11ff80f5.png",
+      "type" : "image/png",
+      "size" : 35850
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1701425925549,
+      "stop" : 1701425925877,
+      "duration" : 328
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1995a4ef849457ce",
+      "name" : "QuitBrowser_10:18:45",
+      "source" : "1995a4ef849457ce.png",
+      "type" : "image/png",
+      "size" : 40542
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_geolocation_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1493-234"
+  }, {
+    "name" : "thread",
+    "value" : "2436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_geolocation_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b18f6a3fbabf0e09.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

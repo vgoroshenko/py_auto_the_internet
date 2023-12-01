@@ -1,0 +1,125 @@
+{
+  "uid" : "815e6ed3f48df6a2",
+  "name" : "test_go_to_broken_image[Browser: Chrome]",
+  "fullName" : "tests.test_broken_image_page#test_go_to_broken_image",
+  "historyId" : "9c73d30080a0953187b9bb24667443d9",
+  "time" : {
+    "start" : 1701425898156,
+    "stop" : 1701425898550,
+    "duration" : 394
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\npages.broken_image_page.ImageNotFoundError: Есть ошибки 2 / [{'level': 'SEVERE', 'message': 'http://172.17.0.1:5000/hjkl.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1701425898452}, {'level': 'SEVERE', 'message': 'http://172.17.0.1:5000/asdf.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1701425898452}]",
+  "statusTrace" : "E   pages.broken_image_page.ImageNotFoundError: Есть ошибки 2 / [{'level': 'SEVERE', 'message': 'http://172.17.0.1:5000/hjkl.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1701425898452}, {'level': 'SEVERE', 'message': 'http://172.17.0.1:5000/asdf.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1701425898452}]",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1701425889727,
+      "stop" : 1701425892418,
+      "duration" : 2691
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\npages.broken_image_page.ImageNotFoundError: Есть ошибки 2 / [{'level': 'SEVERE', 'message': 'http://172.17.0.1:5000/hjkl.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1701425898452}, {'level': 'SEVERE', 'message': 'http://172.17.0.1:5000/asdf.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1701425898452}]",
+    "statusTrace" : "E   pages.broken_image_page.ImageNotFoundError: Есть ошибки 2 / [{'level': 'SEVERE', 'message': 'http://172.17.0.1:5000/hjkl.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1701425898452}, {'level': 'SEVERE', 'message': 'http://172.17.0.1:5000/asdf.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1701425898452}]",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2bc244fcd07bc088",
+      "name" : "step_screenshot_10:18:18",
+      "source" : "2bc244fcd07bc088.png",
+      "type" : "image/png",
+      "size" : 32392
+    }, {
+      "uid" : "bcd11a28c4364ea",
+      "name" : "step_screenshot_10:18:18",
+      "source" : "bcd11a28c4364ea.png",
+      "type" : "image/png",
+      "size" : 29430
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1701425925549,
+      "stop" : 1701425925877,
+      "duration" : 328
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1995a4ef849457ce",
+      "name" : "QuitBrowser_10:18:45",
+      "source" : "1995a4ef849457ce.png",
+      "type" : "image/png",
+      "size" : 40542
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_broken_image_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1493-234"
+  }, {
+    "name" : "thread",
+    "value" : "2436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_broken_image_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "815e6ed3f48df6a2.json",
+  "parameterValues" : [ "'Chrome'" ]
+}
