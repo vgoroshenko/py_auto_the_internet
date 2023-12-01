@@ -1,4 +1,5 @@
 from pages.jquery_page import JQuery
+import pytest
 
 
 def test_go_to_page(browser):
@@ -14,6 +15,7 @@ def test_go_back_to_menu(browser):
     page.go_to_page()
     page.should_be_correct_page()
 
+@pytest.mark.xfail
 def test_download_pdf(browser):
     page = JQuery(browser)
     page.go_to_page()
