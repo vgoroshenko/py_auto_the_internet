@@ -1,0 +1,124 @@
+{
+  "uid" : "3a5de297e7f9673e",
+  "name" : "test_close_notification[Browser: Chrome]",
+  "fullName" : "tests.test_notification_message_page#test_close_notification",
+  "historyId" : "01b4f2e3cbbe91e20a3783d3d565ac10",
+  "time" : {
+    "start" : 1701427459251,
+    "stop" : 1701427465343,
+    "duration" : 6092
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1701427427619,
+      "stop" : 1701427431049,
+      "duration" : 3430
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ed071a85d5c95600",
+      "name" : "step_screenshot_10:44:19",
+      "source" : "ed071a85d5c95600.png",
+      "type" : "image/png",
+      "size" : 12137
+    }, {
+      "uid" : "a7070ae83f92cbba",
+      "name" : "step_screenshot_10:44:25",
+      "source" : "a7070ae83f92cbba.png",
+      "type" : "image/png",
+      "size" : 57165
+    }, {
+      "uid" : "471766fc713bcf9",
+      "name" : "step_screenshot_10:44:25",
+      "source" : "471766fc713bcf9.png",
+      "type" : "image/png",
+      "size" : 57165
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1701427466007,
+      "stop" : 1701427466315,
+      "duration" : 308
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1c0c57b891fca9fb",
+      "name" : "QuitBrowser_10:44:26",
+      "source" : "1c0c57b891fca9fb.png",
+      "type" : "image/png",
+      "size" : 32812
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_notification_message_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1153-398"
+  }, {
+    "name" : "thread",
+    "value" : "2468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_notification_message_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a5de297e7f9673e.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

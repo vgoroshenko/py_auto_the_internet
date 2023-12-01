@@ -1,0 +1,125 @@
+{
+  "uid" : "7ecc3d9cd702a710",
+  "name" : "test_download_pdf[Browser: Chrome]",
+  "fullName" : "tests.test_jquery_page#test_download_pdf",
+  "historyId" : "b9a141dce90413a3228bca1846a76713",
+  "time" : {
+    "start" : 1701427450833,
+    "stop" : 1701427451729,
+    "duration" : 896
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: should be downloaded file, but not",
+  "statusTrace" : "E   AssertionError: should be downloaded file, but not",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1701427427619,
+      "stop" : 1701427430992,
+      "duration" : 3373
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: should be downloaded file, but not",
+    "statusTrace" : "E   AssertionError: should be downloaded file, but not",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35ce2275963fecb2",
+      "name" : "step_screenshot_10:44:10",
+      "source" : "35ce2275963fecb2.png",
+      "type" : "image/png",
+      "size" : 37175
+    }, {
+      "uid" : "fc9be8096003e2d2",
+      "name" : "step_screenshot_10:44:12",
+      "source" : "fc9be8096003e2d2.png",
+      "type" : "image/png",
+      "size" : 39258
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1701427464771,
+      "stop" : 1701427464973,
+      "duration" : 202
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eab49638d27e861a",
+      "name" : "QuitBrowser_10:44:24",
+      "source" : "eab49638d27e861a.png",
+      "type" : "image/png",
+      "size" : 40542
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_jquery_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1153-398"
+  }, {
+    "name" : "thread",
+    "value" : "2473-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_jquery_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "7ecc3d9cd702a710.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

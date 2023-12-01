@@ -1,0 +1,124 @@
+{
+  "uid" : "e7bceb10ef3f6803",
+  "name" : "test_present_challenging_dom_page[Browser: Chrome]",
+  "fullName" : "tests.test_challenging_dom_page#test_present_challenging_dom_page",
+  "historyId" : "8451700483984fe7d4d7a09ea284b5f6",
+  "time" : {
+    "start" : 1701427432833,
+    "stop" : 1701427433250,
+    "duration" : 417
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1701427427619,
+      "stop" : 1701427430992,
+      "duration" : 3373
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ee8cef4e43b9a440",
+      "name" : "step_screenshot_10:43:52",
+      "source" : "ee8cef4e43b9a440.png",
+      "type" : "image/png",
+      "size" : 34381
+    }, {
+      "uid" : "464c14ccb919153",
+      "name" : "step_screenshot_10:43:53",
+      "source" : "464c14ccb919153.png",
+      "type" : "image/png",
+      "size" : 163096
+    }, {
+      "uid" : "441444d6a9e3c27",
+      "name" : "step_screenshot_10:43:53",
+      "source" : "441444d6a9e3c27.png",
+      "type" : "image/png",
+      "size" : 163096
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1701427464771,
+      "stop" : 1701427464973,
+      "duration" : 202
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eab49638d27e861a",
+      "name" : "QuitBrowser_10:44:24",
+      "source" : "eab49638d27e861a.png",
+      "type" : "image/png",
+      "size" : 40542
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_challenging_dom_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1153-398"
+  }, {
+    "name" : "thread",
+    "value" : "2473-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_challenging_dom_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7bceb10ef3f6803.json",
+  "parameterValues" : [ "'Chrome'" ]
+}
