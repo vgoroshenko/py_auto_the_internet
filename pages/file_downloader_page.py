@@ -1,4 +1,5 @@
 import os
+import getpass
 from pages.locators import FileDownloadLocators, BasePageLocators
 from pages.base.base_page import BasePage
 
@@ -18,7 +19,7 @@ class FileDownloader(BasePage):
             return False if os.name == 'nt' else True
 
         if is_docker():
-            user = os.getlogin()
+            user = getpass.getuser()
             download_dir = f"/home/{user}/Downloads"
         else:
             download_dir = f"E:\\Downloads"

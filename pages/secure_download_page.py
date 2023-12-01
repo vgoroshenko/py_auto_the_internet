@@ -1,6 +1,7 @@
 from pages.locators import SecureFileDownloadLinkLocators,BasicAuthLocators, BasePageLocators
 from pages.base.base_page import BasePage
 import os
+import getpass
 
 
 class SecureFileDownload(BasePage):
@@ -34,7 +35,7 @@ class SecureFileDownload(BasePage):
             return False if os.name == 'nt' else True
 
         if is_docker():
-            user = os.getlogin()
+            user = getpass.getuser()
             download_dir = f"/home/{user}/Downloads"
         else:
             download_dir = f"E:\\Downloads"
