@@ -1,5 +1,8 @@
 ## Getting Started Test the internet in chrome
 
+[Example application for writing automated acceptance tests](http://the-internet.herokuapp.com)
+
+[Link to Allure report after run tests](https://vgoroshenko.github.io/py_auto_the_internet/)
 
 
 Install your dependencies:
